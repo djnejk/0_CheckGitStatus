@@ -1,0 +1,24 @@
+{
+  "name": "check-git-status",
+  "version": "1.0.0",
+  "description": "Check the Git status of every repository in a directory.",
+  "license": "MIT",
+  "private": false,
+  "type": "commonjs",
+  "bin": {
+    "check-git-status": "check-git-status.js"
+  },
+  "scripts": {
+    "check": "node check-git-status.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "git",
+    "status",
+    "repositories",
+    "cli"
+  ]
+}
